@@ -1,0 +1,315 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass[12pt]{jreport} 
+%\usepackage{kmd-emthesis} %English
+\usepackage{kmd-jmthesis}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{fancybox}
+\usepackage{amssymb}
+\usepackage{moreverb}
+\usepackage{afterpage}
+\usepackage{cite}
+%\usepackage{harvard-oikos}
+\usepackage{ccaption}     % caption操作
+\usepackage{fn2end} %脚注を文末注に一斉変更するパッケージ
+\usepackage{fn2end_config} %脚注にインデントをつけるパッケージ
+\usepackage{color}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatother
+%
+%
+% ページスタイルの指定
+\pagestyle{final}       % 清書
+%\pagestyle{draft}      % 下書き
+%
+% 使用言語の指定
+\lang{Japanese} % 日本語
+%\lang{English} % 英語
+%
+% 学生番号
+\studentnumber{81335042}
+%
+% 修士論文 か 課題研究 かの選択
+\doctitle{\mastersthesis}       % 修士論文
+%\doctitle{\mastersreport}      % 課題研究
+%
+% 取得予定の修士号
+\major{\mediadesign}    % メディアデザイン学
+%
+% 日本語題目 (in LaTeX)
+\title{レクリエーション分野における\\フラッシュマーケティングの活用}
+%
+% 日本語題目 (in plain text)
+%   注: (in LaTeX)と同じ場合は指定する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+\ptitle{レクリエーション分野における\\フラッシュマーケティングの活用}
+%
+%
+% 英語題目 (in LaTeX)
+\etitle{Practice of Design Thinking Workshop to Develop\\ ``Media Innovator'' Leading Creative Society}
+%
+% 英語題目 (in plain text)
+%   注: (in LaTeX)と同じ場合は指定する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+\eptitle{Practice of Design Thinking Workshop to Develop ``Media Innovator'' Leading Creative Society}%
+%
+% 日本語氏名 (in LaTeX)
+%   （姓と名の間に空白を入れて下さい）
+%
+\author{飯田　光}
+%
+% 日本語氏名 (in plain text)
+%
+%   注: (in LaTeX)と同じ場合は指定する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+%
+\pauthor{飯田　光}
+%
+% 欧文氏名 (in LaTeX)
+%   （first name, last name の順に記入し、先頭文字のみを大文字にする。）
+%
+\eauthor{Hikaru Iida}
+% 別の例: \eauthor{Kurt G\"{o}del}
+%
+%
+% 欧文氏名 (in plain text)
+%
+%   注: (in LaTeX)と同じ場合は指定する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+%
+\epauthor{Hikaru Iida}
+% 別の例: \peauthor{Kurt Goedel}
+%
+%
+
+% 論文提出年度（Academic Year）
+\syear{2014}
+\heiseiyear{26}
+%\smonth{2}
+%\sday{7}
+
+%
+%
+% 指導教員（日本語）
+%   （姓と名、名と称号の間に空白を入れて下さい）
+%
+\chmembers{杉浦 一徳　教授}{（主指導教員）}
+         {岸 博幸 教授}{（副指導教員）}
+         
+%
+%
+% 審査委員（日本語）
+%   （姓と名、名と称号の間に空白を入れて下さい）
+%
+%５人の場合、５人目は\addcomembers を使って宣言する
+%主指導教員、副指導教員を明記する。両指導教員以外は委員。
+%\comembers{砂原　秀樹 教授}{（主指導教員）}
+%         {加藤　朗 教授}{（副指導教員）}
+%         {河口　信夫 教授}{（委員、名古屋大学）}
+%         {○○ ○○ 准教授}{（委員）}
+%
+%\addcomembers{×× ×× 助教}{（委員）}
+%４人の場合
+%\comembers{砂原　秀樹 教授}{（主指導教員）}
+%         {加藤　朗 教授}{（副指導教員）}
+%         {河口　信夫 教授}{（委員、名古屋大学）}
+%         {○○ ○○ 准教授}{（委員）}
+% ３人の場合
+\comembers{杉浦 一徳教授}{（主査）}
+         {岸 博幸 教授}{（副査）}
+         {稲見　昌彦 教授}{（副査）}
+         {}{}
+\addcomembers{}{}
+% ２人の場合
+%\comembers{砂原　秀樹 教授}{（主指導教員）}
+%         {加藤　朗 教授}{（副指導教員）}
+%
+% 指導教員（英語）
+%     （first name, last name の順に記入し、先頭文字のみを大文字にする。
+%       first name と last name の間に空白、
+%       last name と 称号の間にカンマと空白を入れて下さい。）
+\echmembers{Professor kazunori Sugiura}{(Supervisor)}
+          {Professor Hiroyuki Kishi}{(Co-supervisor)}
+% 審査委員（英語）
+%     （first name, last name の順に記入し、先頭文字のみを大文字にする。
+%       first name と last name の間に空白、
+%       last name と 称号の間にカンマと空白を入れて下さい。）
+%
+% ５人の場合、５人目は\eaddcomembers を使って宣言する
+% Supervisor, Co-supervisor, and Member must be specified.
+%\ecomembers{Professor Shunsuke Uemura}{(Supervisor)}
+%          {Professor Minoru Ito}{(Co-supervisor)}
+%          {Associate Professor Masatoshi Yoshikawa}{(Member, Nagoya University)}
+%          {Associate Professor xxxxxx xxxxxx}{(Member)}
+%\eaddcomembers{Associate Professor oooooo oooooo}{(Member)}
+% ４人の場合
+%\ecomembers{Professor Hideki Sunahara}{(Supervisor)}
+%          {Professor Akira Kato}{(Co-supervisor)}
+%          {Professor Nobuo Kawaguchi}{(Member, Nagoya University)}
+%          {Associate Professor xxxxxx xxxxxx}{(Member)}
+% ３人の場合
+\ecomembers{Professor Kazunori Sugiura}{(Supervisor)}
+          {Professor Hiroyuki Kishi}{(Co-supervisor)}
+          {Associate Professor Kazunori Sugiura}{(Member)}
+          {}{}
+\eaddcomembers{}{}
+% \ecomembers{Professor Hideki Sunahara}{(Supervisor)}
+%           {Professor Akira Kato}{(Co-supervisor)}
+%           {Professor Nobuo Kawaguchi}{(Member, Nagoya University)}
+% ２人の場合
+% \ecomembers{Professor Hideki Sunahara}{(Supervisor)}
+%           {Professor Akira Kato}{(Co-supervisor)}
+%
+% キーワード５個 (in LaTeX)
+%
+\keywords{フラッシュマーケティング、消費者行動、共同購入、ギャザリング、O2O}
+%
+% キーワード５個 (in plain text)
+%
+%   注: (in LaTeX)と同じ場合は記入する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+%
+\pkeywords{フラッシュマーケティング、消費者行動、共同購入、ギャザリング、O2O}
+%
+% 5 or 6 Keywords (in LaTeX)
+%
+\ekeywords{Flash Marketing, Consumer Behavior, group-buying, Gathering, O2O}
+%
+% 5 or 6 Keywords (in plain text)
+%
+%   注: (in LaTeX)と同じ場合は記入する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+%
+\epkeywords{Design Thinking, Creative Society, Workshop, Innovation, Education}
+
+%論文の投稿カテゴリーを一つ選ぶ（デザイン, サイエンス / エンジニアリング, アクションリサーチ, 社会科学 / 人文科学）
+\category{アクションリサーチ}
+%論文の投稿カテゴリーを一つ選ぶ（デザイン, サイエンス / エンジニアリング, アクションリサーチ, 社会科学 / 人文科学）(in plain text)
+\pcategory{アクションリサーチ}
+
+%Choose one submission category from [Design, Science / Engineering, Social Science / Humanities, Action Research]
+\ecategory{Action Research}
+%Choose one submission category from [Design, Science / Engineering, Social Science / Humanities, Action Research] (in plain text)
+\ecategory{Action Research}
+
+
+%
+% 内容梗概 (in LaTeX)
+%
+%   注: 行の先頭が\\で始まらないようにすること。
+%
+\abstract{
+近年、フラッシュマーケティング（以下、ＦＭ）という手法を用いて、ビジネスを展開する企業が増えてる。フラッシュマーケティングとは、商品やサービスの提供にあたり、割引価格や特典がついたクーポンを期間限定でインターネット上で販売する手法である。一般に24時間から72時間程度の短時間（フラッシュ）に、集客と販売および見込み顧客の情報収集が行われるという特徴を持つ。米国では従来から販売期間を24時間と短く設定した "One deal a Day" ("Deal of the day")という手法が存在しており、Amazon.comやBuy.comが採用していた。2008年GROUPON社が、割引クーポンをインターネット上で事前に共同購入するビジネスモデルを始める。このメソッドは、GROUPON社の海外進出に伴い世界に広まり、類似サービスも出現していく。
+日本市場においても、FMを用いたビジネス領域が拡大するものの、特定の領域に偏って発展している傾向がある。特に、レジャーカテゴリー領域への売上が極端に低い。本研究執筆に先立ち、調査を行ったところチーム間のマッチングという付加価値が必要であることがわかり販売対象が広がりFM市場全体の売上貢献につながると考えた。
+本論文は、GROUPONなどが代表に挙げられる共同購入型FMサイトに、マッチング機能を加えたフットサルコートの共同購入型マッチングサービスを提案したものである。本サービスは、チーム人数が少ないフットサルチームを対象に格安でフットサルコートを提供する一方で、コート運営者側はアイドリングの時間を削減することができる
+本論文では、ＦＭサイトにおけるビジネスモデルの変化、現在のレジャー施設、ユーザーにＦＭサイトの意識調査を行い、ＦＭサイトの実態と照らし合わせた。その結果、購入する際のユーザー側の問題、フットサルコート側の集金リスクが課題であることが分かった。この問題を解決するために、ＦＭサイトでユーザー間のマッチングを図り、当サイトがフットサルコートの代わりに集金を担い実証実験を行った。
+従来のフットサルチーム同士が交流する大会のように、審判やタイムキーパーがいなければチーム間での試合は成立しないと考えられてきたが、事前に大会チュートリアルメールを送ることと前払い制度を導入することで、試合の運営に関する上記のボトルネックは解消された。またフットサルコートは空き時間を有効に活用することができ、会員登録制の施設を要するスポーツジャンルであれば展開できる可能性を示した
+
+
+
+
+}
+% Abstract (in plain text)
+%
+%   注: (in LaTeX)と同じ場合は記入する必要なし。
+%       この情報は修士論文/課題研究には現れませんが、管理のために必要です。
+%       改行する箇所には空白行を入れる。
+%       行の先頭が\\で始まらないようにすること。
+%
+\eabstract{
+The Graduate School of Media Design (KMD) was established to train talented individuals to work on the global stage building and running new industries for the coming ``creative society,'' a world in which the driving force of the economy will be creativity rather than productivity or efficiency. ``Creativity'' is the ability to produce new ideas, expressions, and processes. These new creations and the activities inspire give rise to an economic base with the power and energy to bring forth innovative technologies and enrich human societies. The work of the individual is paramount in the creative society; consumers lead creative activities. Collaboration is all-important. Individuals innovate, mutually recognizing a diversity of values and making personal, imaginative contributions that collectively result in extraordinary achievements and capacities.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%% document starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%
+% 表紙 および アブストラクト
+%
+\titlepage
+\comemberspage
+\firstabstract
+\secondabstract
+%
+% 目次
+%
+\toc
+\newpage
+\listoffigures
+\newpage
+\listoftables
+%
+% これ以降本文
+%
+\newpage
+\pagenumbering{arabic}
+\input{intro.tex}
+\input{relatedworks.tex}
+\input{isyuu.tex}
+%\input{approach.tex}
+\input{design.tex}
+\input{implementation.tex}
+\input{evaluation.tex}
+\input{discussion.tex}
+%\input{futurework.tex}
+%\input{conclusion.tex}
+%
+% 謝辞
+%
+\acknowledgements
+
+本研究の指導教員であり、
+幅広い知見から的確な指導と暖かい励ましやご指摘をしていただきました慶應義塾大学大学院
+メディアデザイン研究科の杉浦一徳教授に心から感謝いたします。
+
+研究の方向性について様々な助言や指導をいただきました慶應義塾大学大学院 メディアデザイン研究科の岸博幸教授に心から感謝いたします。
+
+研究指導や論文執筆など数多くの助言を賜りました慶應義塾大学大学院 メディアデザイン研究科の稲見昌彦教授に心から感謝いたします。
+%
+% 参考文献
+% ここでは \reference を使って、自分でリストを作るか、BibTeX を使って
+% リストをつくって下さい。この例では BibTeX を作るような形式になっ昌彦
+% ます。
+%
+\newpage
+\reference
+
+%\nocite{*} %bibtexにリストされている、すべての文献を表示させたい場合は使用する。（本文中で引用されたものだけ使用する場合はこのまま）
+
+%%%%%%%%%%%%%%%%%%%%%%
+%Style of Bibliography
+%%%%%%%%%%%%%%%%%%%%%%
+
+%Chicago Style that can also use Japanese citations
+%\bibliographystyle{jecon_edit}
+
+%Numbering Style (General Science Format)
+%\bibliographystyle{abbrv}
+
+%ACM SIGCHI Style
+\bibliographystyle{acm-sigchi}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{document}
+\begin{thebibliography}{9}
+	\bibitem{yauchi,2012} C. Harris and M. Stephens,
+	``A combined corner and edge detector, '' Proc. 4th Alvey Vision Conf.,
+	pp.147-151, Manchester, U.K., Aug. 1988.
+	\bibitem{susan} S. M. Smith and J. M. Brady,
+	``SUSAN|A new approach to low level image processing,'' Int. J. Comput.
+	Vis., vol.23, no.1, pp.45-78, May 1997.
+\end{thebibliography}
+%
+% 付録
+%
+%\appendix
+%\input{appendix1}
+
+\end{document}
