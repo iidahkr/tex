@@ -1,0 +1,47 @@
+\section{障害検知設定ファイルの例}
+%障害検知の設定ファイルを以下に示す。
+\begin{verbatimtab}
+<config>
+<system>
+<class>DefaultCompareClass</class>
+</system>
+<evaluate>
+<compare_single_observation_point>
+<function method="compareMax" recital="Temperature maximum threshold value"
+type="Temperature"> <argument class="double">40.8</argument>
+</function>
+<function method="compareMin" recital="Temperature minimum threshold value"
+type="Temperature"> <argument class="double">-41.0</argument>
+</function>
+
+<function method="compareChange" recital="Temperature change amount error"
+type="Temperature"> <argument class="double">17.0</argument>
+<argument class="int">1</argument>
+</function>
+
+<function method="compareConstant" recital="Temperature constant error"
+type="Temperature"> <argument class="int">1</argument>
+</function>
+</compare_single_observation_point>
+
+<compare_neighbor>
+<function method="compareNeighbor" recital="Temperature neibor error"
+type="Temperature"> <argument class="double">2.0</argument>
+</function>
+</compare_neighbor>
+
+<compare_wide_area>
+<function method="compareWide" recital="RainFall wide area error"
+type="RainFall"> <argument class="double">10.0</argument>
+</function>
+</compare_wide_area>
+</evaluate>
+</config>
+\end{verbatimtab}
+%\begin{figure}[t]
+%\begin{center}
+%\includegraphics[width=120mm, height=100mm]{./figure/config.eps}
+%\caption{障害検知設定ファイルの例}
+%\label{appendix1}
+%\end{center}
+%\end{figure}

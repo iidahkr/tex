@@ -1,0 +1,64 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}
+\contentsline {section}{\numberline {1.1.}背景}{1}
+\contentsline {subsection}{\numberline {1.1.1}レクリエーション市場における市場推移}{2}
+\contentsline {subsection}{\numberline {1.1.2}フットサル市場の推移}{2}
+\contentsline {section}{\numberline {1.2.}フラッシュマーケティングを用いた集客の取り組み}{3}
+\contentsline {subsection}{\numberline {1.2.1}LaBOLAクーポン}{3}
+\contentsline {subsection}{\numberline {1.2.2}Grouponにおけるレジャー施設の活用方法}{5}
+\contentsline {section}{\numberline {1.3.}問題提起}{6}
+\contentsline {section}{\numberline {1.4.}実証と検証}{6}
+\contentsline {section}{\numberline {1.5.}本論の構成}{7}
+\contentsline {section}{注}{7}
+\contentsline {chapter}{\numberline {第2章}関連研究}{8}
+\contentsline {section}{\numberline {2.1.}フラッシュマーケティングについて}{8}
+\contentsline {subsection}{\numberline {2.1.1}フラッシュマーケティングとは}{8}
+\contentsline {subsection}{\numberline {2.1.2}フラッシュマーケティングサイトのビジネスモデル}{10}
+\contentsline {subsection}{\numberline {2.1.3}フラッシュマーケティングサイトの販売手法の転換}{10}
+\contentsline {subsection}{\numberline {2.1.4}フラッシュマーケティングの現状}{12}
+\contentsline {section}{\numberline {2.2.}各サイトの特徴}{15}
+\contentsline {subsection}{\numberline {2.2.1}Gropon}{15}
+\contentsline {subsection}{\numberline {2.2.2}ポンパレ}{15}
+\contentsline {section}{\numberline {2.3.}フットサルのマッチングサービス}{16}
+\contentsline {subsection}{\numberline {2.3.1}footlink}{16}
+\contentsline {subsection}{\numberline {2.3.2}EnjoyFutsal}{16}
+\contentsline {section}{\numberline {2.4.}フラッシュマーケティングの有効性}{17}
+\contentsline {subsection}{\numberline {2.4.1}クーポンの経済学的効果}{18}
+\contentsline {subsubsection}{価格差別}{18}
+\contentsline {subsubsection}{リピート効果}{19}
+\contentsline {subsection}{\numberline {2.4.2}共同購入の経済学的効果}{19}
+\contentsline {chapter}{\numberline {第3章}ビジネスモデル}{20}
+\contentsline {section}{\numberline {3.1.}Liven Up初期ビジネスモデル}{20}
+\contentsline {subsection}{\numberline {3.1.1}現状の課題分析}{20}
+\contentsline {subsection}{\numberline {3.1.2}初期ビジネスモデルの構築}{21}
+\contentsline {section}{\numberline {3.2.}初期ビジネスモデルの検証}{22}
+\contentsline {subsection}{\numberline {3.2.1}サービスの修正}{24}
+\contentsline {chapter}{\numberline {第4章}サービス設計}{25}
+\contentsline {section}{\numberline {4.1.}サービス概要}{25}
+\contentsline {section}{\numberline {4.2.}サービスコンセプト}{25}
+\contentsline {section}{\numberline {4.3.}サイトデザイン}{26}
+\contentsline {subsection}{\numberline {4.3.1}トップページ}{26}
+\contentsline {subsection}{\numberline {4.3.2}チケット購入ページ}{27}
+\contentsline {subsection}{\numberline {4.3.3}フットサルコート情報}{28}
+\contentsline {section}{\numberline {4.4.}ステークホルダー別サービス利用フロー}{30}
+\contentsline {subsection}{\numberline {4.4.1}フットサルコートの利用フロー}{30}
+\contentsline {subsection}{\numberline {4.4.2}プレイヤーの利用フロー}{30}
+\contentsline {chapter}{\numberline {第5章}サービス運営}{31}
+\contentsline {section}{\numberline {5.1.}運営概要}{31}
+\contentsline {section}{\numberline {5.2.}2014年10月までの運営振り返り}{31}
+\contentsline {subsection}{\numberline {5.2.1}【成果】}{33}
+\contentsline {subsection}{\numberline {5.2.2}【課題】}{34}
+\contentsline {section}{\numberline {5.3.}機能改善}{34}
+\contentsline {chapter}{\numberline {第6章}サービスの評価}{35}
+\contentsline {section}{\numberline {6.1.}調査概要}{35}
+\contentsline {section}{\numberline {6.2.}調査結果：フットサルプレイヤー}{35}
+\contentsline {section}{\numberline {6.3.}調査結果：フットサルコートオーナー}{36}
+\contentsline {section}{\numberline {6.4.}考察}{37}
+\contentsline {chapter}{\numberline {第7章}結論と今後の課題}{38}
+\contentsline {section}{\numberline {7.1.}運営総括}{38}
+\contentsline {section}{\numberline {7.2.}運営成果}{38}
+\contentsline {section}{\numberline {7.3.}今後に向けた課題}{39}
+\contentsline {section}{\numberline {7.4.}サービス改善}{39}
+\contentsline {chapter}{謝辞}{41}
+\contentsline {chapter}{参考文献}{42}
+\contentsline {chapter}{参考文献}{43}
+\contentsline {chapter}{参考文献}{44}
